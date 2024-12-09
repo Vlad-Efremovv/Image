@@ -7,6 +7,12 @@
     <UserSecretsId>1cf5fd3d-abef-4065-addf-3beead3e536d</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>.</DockerfileContext>
+    
+    <!-- Настройки для публикации в один файл -->
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier> <!-- Или другая платформа -->
   </PropertyGroup>
 
   <ItemGroup>
